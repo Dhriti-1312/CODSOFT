@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body{
+    color: #ededed;
+    /* background-color: #081b29; */
+    /*background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
+    /* background: #000046;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #1CB5E0, #010105);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #1CB5E0, #020214); */
+    background-color: #081b29;
+
+
+}
+.heading{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    text-decoration: none;
+    /* color: #0ef; */
+    color: #ededed;
+    /* color: #081b29; */
+}
+.container{
+    /* background: rgb(200, 68, 90); */
+    /* background: #0F2027;  */
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #0ef;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    padding: 8px;
+    border-radius: 10px;
+}
+.row{
+    margin: 2px 0;
+    color: #ededed;
+
+}
+.row input{
+    width: 280px;
+    height: 70px;
+    font-size: 30px;
+    margin: 2px;
+    border: 2px solid transparent;
+    background-color: #081b29;
+    color: rgb(245, 171, 35);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: right;
+}
+/* .row input:hover{
+    background-color: white;
+} */
+
+.button{
+    width: 66px;
+    height: 66px;
+    padding: 20px;
+    background-color: #081b29;
+    color: #0ef;
+    /* margin: 0 3px; */
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: crosshair;
+    font-size: large;
+}
+.button:hover{
+    color: white;
+    background-color: rgb(245, 171, 35);
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    /* color: white; */
+    /* color: #081b29; */
+    /* color: #0ef; */
+    color: #081b29;
+    font-family: 'Merriweather', serif;
+    font-weight: 300px;
+    font-size: 15px;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(245, 171, 35); 
+    font-size: large;
+    font-weight: bold;
+}
